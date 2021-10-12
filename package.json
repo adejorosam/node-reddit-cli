@@ -1,0 +1,27 @@
+{
+  "name": "reddit-cli",
+  "version": "1.0.0",
+  "description": "A CLI that allows you open a random reddit post",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adejorosam/node-reddit-cli.git"
+  },
+  "bin": {
+    "reddit": "./reddit.mjs"
+  },
+  "author": "Samson Adejoro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adejorosam/node-reddit-cli/issues"
+  },
+  "homepage": "https://github.com/adejorosam/node-reddit-cli#readme",
+  "dependencies": {
+    "node-fetch": "^3.0.0",
+    "open": "^8.3.0",
+    "yargs": "^17.2.1"
+  }
+}
